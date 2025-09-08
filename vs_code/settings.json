@@ -1,0 +1,58 @@
+{
+    "snowflake.connectionsConfigFile": "/Users/kyleholmes/.snowflake/connections.toml",
+    "editor.fontFamily": "MesloLSG NF",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.lineNumbers": "relative",
+    "editor.glyphMargin": true,
+    "editor.minimap.enabled": false,
+    "workbench.editor.decorations.colors": false,
+    "window.commandCenter": false,
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "off",
+    "vim.hlsearch": true,
+    "vim.highlightedyank.enable": true,
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["escape"],
+            "commands": [":nohlsearch"]
+        }
+    ],
+    "git.openRepositoryInParentFolders": "always",
+    "snowflake.enableNativeAppPanel": true,
+    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": false,
+    "dbt.altimateAiKey": "85ae6e83bb0b40c913008b08379a315f",
+    "dbt.altimateInstanceName": "thrivemarket",
+    "python.defaultInterpreterPath": "~/.venv/ds-main/dbt/bin/python",
+    "workbench.editor.splitInGroupLayout": "vertical",
+
+    // SQLFluff Configuration
+    "sqlfluff.dialect": "snowflake",
+    "sqlfluff.linter.run": "onSave",
+    "sqlfluff.executablePath": "/Users/kyleholmes/.venv/ds-main/dbt/bin/sqlfluff",
+    "sqlfluff.config": "${workspaceFolder}/.sqlfluff",
+    "sqlfluff.format.enabled": true,
+    "[sql]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "dorzey.vscode-sqlfluff"
+    },
+    "[snowflake-sql]": {},
+    "editor.accessibilitySupport": "off",
+    "dbt.dbtPath": "/Users/kyleholmes/.local/bin/dbt",
+    "dbt.profileName": "~/.dbt/profiles.yml",
+    "dbt.targetName": "~/.dbt/profiles.yml",
+    "accessibility.signalOptions.volume": 0,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "snowflake-sql": true
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "altimate.onboardedMcpServer": true,
+    "vim.insertModeKeyBindings": []
+}
